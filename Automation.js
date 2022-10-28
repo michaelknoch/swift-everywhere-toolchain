@@ -57,7 +57,7 @@ const SwiftCryptoBuilder = require("./lib/Builders/SwiftCryptoBuilder");
 
 module.exports = class Automation extends Tool {
   run() {
-    this.verifyXcodeAndExitIfNeeded();
+  //  this.verifyXcodeAndExitIfNeeded();
     this.verifyNDKAndExitIfNeeded();
     var args = process.argv.slice(2);
     var action = args[0];
